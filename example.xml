@@ -1,0 +1,899 @@
+<GoldenFleece>
+   <mapStoryNodes>
+      <storyNode class="goldenFleece.storySystem.storyNodes.GameplayNode">
+         <id>Gameplay</id>
+         <labels/>
+         <sceneStateValues/>
+         <teaserText>Gameplay Example</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>875</locationX>
+         <locationY>1105</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites/>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>GatherProvisionsSkiathos</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="heroism">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Atalanta">2</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Gather provisions at Skiathos</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>897</locationX>
+         <locationY>651</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>HauntedIsland</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">2</storyElement>
+               <storyElement name="heroism">1</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>The haunted island</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>1121</locationX>
+         <locationY>598</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>ChariotRaces</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">1</storyElement>
+               <storyElement name="heroism">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Ephemus">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>The chariot races</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>673</locationX>
+         <locationY>534</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>GatherProvisionsSestos</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Aphrodite">2</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Gather provisions at Sestos</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>1249</locationX>
+         <locationY>406</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>StopAtTroy</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">2</storyElement>
+               <storyElement name="heroism">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Athena">2</storyElement>
+               <storyElement name="Zeus">1</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Stop at Troy</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>1153</locationX>
+         <locationY>480</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.KernelNode">
+         <id>PassSymplegades - Hercules</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="heroism">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Hercules">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Pass the Symplegades - Hercules</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>1554</locationX>
+         <locationY>331</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>KingPhineas</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">2</storyElement>
+               <storyElement name="will of the gods">2</storyElement>
+               <storyElement name="heroism">4</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Hercules">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>King Phineas</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>1378</locationX>
+         <locationY>406</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>DolionianGames</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">2</storyElement>
+               <storyElement name="heroism">3</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Hercules">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>The Dolionian Games</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>1538</locationX>
+         <locationY>427</locationY>
+         <nodeType>MapNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+   </mapStoryNodes>
+   <generalStoryNodes>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>Sample</id>
+         <labels>
+            <string>treasure island</string>
+         </labels>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Ephemus">4</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Sample</teaserText>
+         <eventText>An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  An example of lots of text.  We don&apos;t want to skimp here because we want to see the maximum text.  </eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites/>
+         <choices>
+            <nodeChoice>
+               <prerequisites>
+                  <prerequisite class="goldenFleece.storySystem.prerequisites.SingularMaxPrerequisite">
+                     <id>ChangeMorale</id>
+                     <associatedStateValue>crew morale</associatedStateValue>
+                     <maxValueToPass>1</maxValueToPass>
+                  </prerequisite>
+               </prerequisites>
+               <text>Option 1</text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text 1&gt;</outcomeText>
+                  <storyModeModifier>
+                     <newModeID>sailing-before-symplegades</newModeID>
+                  </storyModeModifier>
+                  <modifiers>
+                     <outcomeModifier class="goldenFleece.storySystem.storyNodes.Outcome$SingularStateOutcomeModifier">
+                        <absolute>false</absolute>
+                        <stateValueName>crew morale</stateValueName>
+                        <numericAmountToChange>-1</numericAmountToChange>
+                     </outcomeModifier>
+                     <outcomeModifier class="goldenFleece.storySystem.storyNodes.Outcome$DictionaryStateOutcomeModifier">
+                        <absolute>true</absolute>
+                        <stateValueName>Argonauts happiness</stateValueName>
+                        <numericAmountToChange>2</numericAmountToChange>
+                        <valueName>Atalanta</valueName>
+                     </outcomeModifier>
+                     <outcomeModifier class="goldenFleece.storySystem.storyNodes.Outcome$ListStateOutcomeModifier">
+                        <absolute>false</absolute>
+                        <stateValueName>scenes seen</stateValueName>
+                        <numericAmountToChange>0</numericAmountToChange>
+                        <valueToAddOrRemove>SomeScene</valueToAddOrRemove>
+                        <addValue>true</addValue>
+                     </outcomeModifier>
+                  </modifiers>
+               </outcome>
+            </nodeChoice>
+            <nodeChoice>
+               <prerequisites/>
+               <text>Option 2</text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text 2&gt;</outcomeText>
+                  <storyModeModifier>
+                     <newModeID>sailing-before-symplegades</newModeID>
+                  </storyModeModifier>
+                  <modifiers>
+                     <outcomeModifier class="goldenFleece.storySystem.storyNodes.Outcome$SingularStateOutcomeModifier">
+                        <absolute>false</absolute>
+                        <stateValueName>crew morale</stateValueName>
+                        <numericAmountToChange>1</numericAmountToChange>
+                     </outcomeModifier>
+                  </modifiers>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>Storm</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Ephemus">4</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Storm</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.SingularMinPrerequisite">
+               <associatedStateValue>crew morale</associatedStateValue>
+               <minValueToPass>2</minValueToPass>
+            </prerequisite>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.KernelNode">
+         <id>SetSail</id>
+         <labels/>
+         <sceneStateValues/>
+         <teaserText>Set Sail</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites/>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers>
+                     <outcomeModifier class="goldenFleece.storySystem.storyNodes.Outcome$SingularStateOutcomeModifier">
+                        <absolute>false</absolute>
+                        <stateValueName>crew morale</stateValueName>
+                        <numericAmountToChange>1</numericAmountToChange>
+                     </outcomeModifier>
+                  </modifiers>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>JasonResigns</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">3</storyElement>
+               <storyElement name="heroism">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Hercules">6</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Jason resigns as captain in favor of Hercules</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>false</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>SacrificeToZeus</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">3</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Zeus">2</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Argonauts sacrifice to Zeus</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>false</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>FarewellPelias</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">2</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Jason bids farewell to Pelias</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>false</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>OrpheusDescent</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">1</storyElement>
+               <storyElement name="will of the gods">2</storyElement>
+               <storyElement name="heroism">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Aphrodite">1</storyElement>
+               <storyElement name="Orpheus">5</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Orpheus sings of the descent to the underworld</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>EchionPrank</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Hermes">2</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Echion plays a prank</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.SingularMaxPrerequisite">
+               <associatedStateValue>crew morale</associatedStateValue>
+               <maxValueToPass>-1</maxValueToPass>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>DisguiseArgo</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">2</storyElement>
+               <storyElement name="will of the gods">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Ephemus">4</storyElement>
+               <storyElement name="Hermes">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Disguise the Argo</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>EphemusTechnique</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="treachery and honor">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Ephemus">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Ephemus explains his technique</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>EphemusSick</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="heroism">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Ephemus">4</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Ephemus is sick</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>OrpheusCreation</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">3</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Orpheus">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Orpheus sings about the creation</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>HerculeTakesCharge</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="heroism">1</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Hercules">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Hercules takes charge</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+      <storyNode class="goldenFleece.storySystem.storyNodes.SatelliteNode">
+         <id>AtalantaApples</id>
+         <labels/>
+         <sceneStateValues>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+               <storyElement name="will of the gods">2</storyElement>
+            </stateValue>
+            <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+               <storyElement name="Atalanta">3</storyElement>
+            </stateValue>
+         </sceneStateValues>
+         <teaserText>Atalanta and the apples</teaserText>
+         <eventText>&lt;Event text&gt;</eventText>
+         <locationX>0</locationX>
+         <locationY>0</locationY>
+         <nodeType>GeneralNode</nodeType>
+         <prerequisites>
+            <prerequisite class="goldenFleece.storySystem.prerequisites.ContainsPrerequisite">
+               <associatedStateValue>scenes seen</associatedStateValue>
+               <valueToCompare>SetSail</valueToCompare>
+               <shouldContainValue>true</shouldContainValue>
+            </prerequisite>
+         </prerequisites>
+         <choices>
+            <nodeChoice>
+               <prerequisites/>
+               <text></text>
+               <outcome>
+                  <outcomeText>&lt;Outcome text&gt;</outcomeText>
+                  <modifiers/>
+               </outcome>
+            </nodeChoice>
+         </choices>
+      </storyNode>
+   </generalStoryNodes>
+   <storyState>
+      <storyStateValues>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CrewMoraleStateValue">
+            <value>2</value>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$JasonsHeroismStateValue">
+            <value>1</value>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$HerculesRageStateValue">
+            <value>1</value>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$TensionStateValue">
+            <value>0</value>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ProvisionsStateValue">
+            <storyElement name="water">80</storyElement>
+            <storyElement name="food">100</storyElement>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ArgonautsHappinessStateValue">
+            <storyElement name="Ephemus">2</storyElement>
+            <storyElement name="Hercules">1</storyElement>
+            <storyElement name="Jason">3</storyElement>
+            <storyElement name="Orpheus">2</storyElement>
+            <storyElement name="Atalanta">3</storyElement>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$GodsHappinessStateValue">
+            <storyElement name="Aphrodite">3</storyElement>
+            <storyElement name="Artemis">1</storyElement>
+            <storyElement name="Athena">1</storyElement>
+            <storyElement name="Zeus">2</storyElement>
+            <storyElement name="Hermes">3</storyElement>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$ThemesStateValue">
+            <storyElement name="peril of the Symplegades">1</storyElement>
+            <storyElement name="treachery and honor">1</storyElement>
+            <storyElement name="will of the gods">1</storyElement>
+            <storyElement name="heroism">1</storyElement>
+         </stateValue>
+         <stateValue class="goldenFleece.storySystem.state.GoldenFleeceStateValues$CharactersStateValue">
+            <storyElement name="Aphrodite">1</storyElement>
+            <storyElement name="Artemis">1</storyElement>
+            <storyElement name="Athena">1</storyElement>
+            <storyElement name="Ephemus">1</storyElement>
+            <storyElement name="Hercules">1</storyElement>
+            <storyElement name="Jason">1</storyElement>
+            <storyElement name="Zeus">1</storyElement>
+            <storyElement name="Hermes">1</storyElement>
+            <storyElement name="Orpheus">1</storyElement>
+            <storyElement name="Atalanta">1</storyElement>
+         </stateValue>
+      </storyStateValues>
+      <globalPrerequisites/>
+      <defaultStoryMode>pre-set-sail</defaultStoryMode>
+      <storyModes>
+         <storyMode>
+            <id>sailing-before-symplegades</id>
+            <mapID>symplegades</mapID>
+            <relatedLabels>
+               <string>treasure island</string>
+            </relatedLabels>
+            <labelsAllowed>false</labelsAllowed>
+         </storyMode>
+         <storyMode>
+            <id>pre-set-sail</id>
+            <mapID>null</mapID>
+            <relatedLabels/>
+            <labelsAllowed>true</labelsAllowed>
+         </storyMode>
+      </storyModes>
+   </storyState>
+</GoldenFleece>
